@@ -5,13 +5,17 @@ import { createBrowserRouter } from "react-router-dom";
 import Signin from "../UI-Components/SingupLogin/Signin";
 import Signup from "../UI-Components/SingupLogin/Signup";
 import Home from "./components/Home";
+import DevShow from "../UI-Components/DevShow/DevShow";
 
 // creating the routes
 export const App = createBrowserRouter([
-  //! /* ----------------------------- auth routes ----------------------------- */
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path : '/devshow',
+    element : <DevShow />
   },
   {
     path: "/singup",
