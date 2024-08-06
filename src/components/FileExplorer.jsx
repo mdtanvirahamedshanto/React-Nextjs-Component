@@ -113,7 +113,7 @@ const FileExplorer = () => {
 
   return (
     <>
-    <div className="h-screen  bg-gray-800 text-white w-3/5  p-4">
+    <div className="h-screen  bg-gray-800 text-white md:w-3/5  p-4">
    <div className="p-3 border border-gray-400 items-center flex flex-col justify-center">
     <div className="text-center">
         <h1 className="text-lg">File Explorer React & Nextjs Component</h1>
