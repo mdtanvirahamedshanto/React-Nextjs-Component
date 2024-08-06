@@ -17,20 +17,7 @@ const FileExplorer = () => {
     "src": {
       type: "folder",
       content: {
-        "Ui-Components": {
-          type: "folder",
-          content: {
-            "DevShow.jsx": { type: "file",link:"devshow" },
-            "Footer": { type: "file" },
-          },
-        },
-        "Ui-Animation": {
-          type: "folder",
-          content: {
-            "Header.jsx": { type: "file" },
-            "Footer.jsx": { type: "file" },
-          },
-        },
+        "Home.jsx": { type: "file",link:"#" },
       },
     },
     "UI-Animation": {
@@ -52,14 +39,21 @@ const FileExplorer = () => {
           type: "folder",
           content: {
             "DevShow.jsx": { type: "file",link:"devshow" },
-            "Footer": { type: "file" },
+            
           },
         },
         "DevShow": {
           type: "folder",
           content: {
             "DevShow.jsx": { type: "file",link:"devshow" },
-            "Footer": { type: "file" },
+            
+          },
+        },
+        "Sing-Up / Login": {
+          type: "folder",
+          content: {
+            "Signin.jsx": { type: "file",link:"singin" }, 
+            "Signup.jsx": { type: "file",link:"singup" }, 
           },
         },
       },
@@ -120,7 +114,7 @@ const FileExplorer = () => {
         <p className="text-sm">Click on the file to view the content</p>
     </div>
    </div>
-   <div className="mx-6 mt-2 bg-gray-600">
+   <div className="md:mx-6 mx-4 mt-2 bg-gray-600">
 
       {renderFileStructure(fileStructure)}
    </div>
