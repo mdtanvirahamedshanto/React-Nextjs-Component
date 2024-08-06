@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaFolder, FaFolderOpen, FaFile } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import DevShow from "../../UI-Components/DevShow/DevShow";
 
 const FileExplorer = () => {
   const [openFolders, setOpenFolders] = useState({});
@@ -119,9 +120,13 @@ const FileExplorer = () => {
         <p className="text-sm">Click on the file to view the content</p>
     </div>
    </div>
-   <div className="p-16 mt-2 bg-gray-600">
+   <div className="mx-6 mt-2 bg-gray-600">
 
       {renderFileStructure(fileStructure)}
+   </div>
+   <div className="mt-4">
+
+   <DevShow />
    </div>
     </div>
     </>

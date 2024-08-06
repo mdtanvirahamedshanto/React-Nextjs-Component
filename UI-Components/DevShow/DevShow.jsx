@@ -2,7 +2,7 @@
 
 
 import React from 'react'
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 const DevShow = () => {
   return (
@@ -31,6 +31,11 @@ const DevShow = () => {
   <li>
   <a href="https://www.linkedin.com/in/mdtanvirahamedshanto" target="_blank" rel="noreferrer" className="font-medium text-lg hover:text-blue-500">
       <FaLinkedin />
+    </a>
+  </li>
+  <li>
+  <a href="https://www.github.com/mdtanvirahamedshanto" target="_blank" rel="noreferrer" className="font-medium text-lg hover:text-gray-500">
+      <FaGithub />
     </a>
   </li>
 </ul>
