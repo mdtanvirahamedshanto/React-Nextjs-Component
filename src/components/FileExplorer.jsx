@@ -38,14 +38,16 @@ const FileExplorer = () => {
         "Cards": {
           type: "folder",
           content: {
-            "DevShow.jsx": { type: "file",link:"devshow" },
+            "InfoCard": { type: "folder", content: {
+              "InfoCard.jsx": { type: "file",link:"infocard" },
+            } },
             
           },
         },
-        "DevShow": {
+        "ProjectCard.tsx": {
           type: "folder",
           content: {
-            "DevShow.jsx": { type: "file",link:"devshow" },
+            "DevShow.jsx": { type: "file",link:"projectcard" },
             
           },
         },
